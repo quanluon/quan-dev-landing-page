@@ -8,6 +8,7 @@ import type { Dictionary } from "@/lib/i18n/dictionaries";
 import { localizedPath, locales, type Locale } from "@/lib/i18n/routing";
 import { getSiteData } from "@/lib/site-data";
 import { cn } from "@/lib/utils";
+import { Avatar } from "./avatar";
 
 type SiteHeaderProps = {
   dictionary: Dictionary["header"];
@@ -23,6 +24,9 @@ export function SiteHeader({ dictionary, locale }: SiteHeaderProps) {
     <header className="sticky top-0 z-50 border-b border-[#c4c6cf] bg-[#f7f9fb]/95 backdrop-blur">
       <div className="content-container flex h-20 items-center justify-between">
         <Link className="flex items-center gap-3 text-[#00091b]" href={`/${locale}`} onClick={() => setOpen(false)}>
+          <div className="flex h-8 w-8 items-center justify-center">
+            <Avatar />
+          </div>
           <span className="font-display text-2xl font-bold tracking-normal">{dictionary.brand}</span>
         </Link>
 

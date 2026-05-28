@@ -5,6 +5,7 @@ import { SectionHeading } from "@/components/section-heading";
 import { getDictionary } from "@/lib/i18n/dictionaries";
 import type { Locale } from "@/lib/i18n/routing";
 import { getSiteData } from "@/lib/site-data";
+import { Avatar } from "@/components/avatar";
 
 export const metadata = {
   title: "Remote Contractor - Hồng Quân Dev",
@@ -55,7 +56,7 @@ export default async function ContractorPage({ params }: PageProps) {
           <div className="border border-[#c4c6cf] bg-white p-8 md:rounded-lg">
             <div className="flex items-center gap-6 border-b border-[#c4c6cf] pb-7">
               <div className="flex h-24 w-24 items-center justify-center rounded-full border border-[#c4c6cf] bg-[#e6e8ea] text-[#1a365d]">
-                <UserRound size={48} />
+                <Avatar/>
               </div>
               <div>
                 <h2 className="font-display text-3xl font-semibold text-[#00091b]">Lương Hồng Quân</h2>
