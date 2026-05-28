@@ -46,7 +46,7 @@ export function DashboardMockup({ locale = "vi" }: { locale?: Locale }) {
           </div>
           <div className="grid gap-4 md:grid-cols-3">
             {[
-              [labels.revenue, "128,450,000đ", "+ 12.5%"],
+              [labels.revenue, "850,000$", "+ 12.5%"],
               [labels.orders, "356", "+ 8.2%"],
               [labels.customers, "1,245", "+ 15.3%"],
             ].map(([label, value, growth]) => (
