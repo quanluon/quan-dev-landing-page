@@ -93,7 +93,7 @@ export function ContactCard({ title, value, note, href, icon: Icon }: ContactCar
         <span className="block font-display text-lg font-semibold text-[#00091b]">{title}</span>
         <span className="block truncate text-[#43474e]">{value}</span>
         {note ? (
-          <span className="mt-1 flex items-center gap-2 text-sm text-[#43474e]">
+          <span className="mt-1 flex items-center gap-2 text-sm text-[#43474e] md:hidden">
             <span className="h-2 w-2 rounded-full bg-[#006c49]" />
             {note}
           </span>
