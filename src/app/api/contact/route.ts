@@ -1,3 +1,4 @@
+import { contact } from "@/lib/site-data";
 import { NextResponse } from "next/server";
 import { Resend } from "resend";
 
@@ -42,7 +43,7 @@ export async function POST(request: Request) {
     return NextResponse.json({ message: "Vui lòng điền đầy đủ thông tin bắt buộc." }, { status: 400 });
   }
 
-  const to = process.env.CONTACT_TO_EMAIL;
+  const to = process.env.CONTACT_TO_EMAIL || contact.email;
   const from = process.env.CONTACT_FROM_EMAIL;
 
   if (!to || !from) {

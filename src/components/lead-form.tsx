@@ -15,7 +15,7 @@ export function LeadForm({ dictionary, interests, locale }: LeadFormProps) {
   const [status, setStatus] = useState<"idle" | "loading" | "success" | "error">("idle");
   const [message, setMessage] = useState("");
 
-  async function handleSubmit(event: FormEvent<HTMLFormElement>) {
+  async function handleSubmit(event: React.SubmitEvent<HTMLFormElement>) {
     event.preventDefault();
     setStatus("loading");
     setMessage("");
@@ -41,7 +41,7 @@ export function LeadForm({ dictionary, interests, locale }: LeadFormProps) {
         throw new Error(data.message || "Không thể gửi yêu cầu.");
       }
 
-      event.currentTarget.reset();
+      event?.currentTarget?.reset();
       setStatus("success");
       setMessage(dictionary.success);
     } catch (error) {
