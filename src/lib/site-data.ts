@@ -244,18 +244,18 @@ export function getSiteData(locale: Locale) {
 
   const projects = locale === "vi"
     ? [
-        { title: "Healthcare Booking & Teleconsultation", eyebrow: "Healthcare / Microservices", description: "Hệ thống đặt lịch, thanh toán, membership, video consultation và notification workflow cho nền tảng y tế.", tags: ["Node.js", "NestJS", "Redis", "PostgreSQL", "AWS"], type: "backend", icon: Layers3, visual: "dashboard" },
+        { title: "Healthcare Booking & Teleconsultation", eyebrow: "Healthcare / Microservices", description: "Hệ thống đặt lịch, thanh toán, membership, video consultation và notification workflow cho nền tảng y tế.", tags: ["Node.js", "NestJS", "Redis", "PostgreSQL", "AWS"], type: "backend", icon: Layers3, visual: "booking" },
         { title: "AI Document Intelligence", eyebrow: "OCR / Document Search", description: "Pipeline đọc hồ sơ, trích xuất trường dữ liệu và hỗ trợ tìm kiếm tài liệu bằng ngôn ngữ tự nhiên.", tags: ["OCR", "Gemini", "RAG", "S3", "SQS"], type: "ai", icon: FileSearch, visual: "document" },
         { title: "Marketplace Search Platform", eyebrow: "Marketplace / Search", description: "Kiến trúc search và caching cho marketplace cần phản hồi nhanh, dữ liệu nhiều và dễ mở rộng.", tags: ["Golang", "NestJS", "Redis", "Elasticsearch"], type: "backend", icon: Gauge, visual: "website" },
         { title: "Inventory & Order Processing", eyebrow: "E-commerce / Operations", description: "Hệ thống quản lý kho và đơn hàng theo hướng event-driven, giảm lỗi khi nhiều thao tác xảy ra cùng lúc.", tags: ["NestJS", "RabbitMQ", "PostgreSQL", "React"], type: "webapp", icon: Blocks, visual: "api" },
-        { title: "ESG Reporting Workflow", eyebrow: "Enterprise / Reporting", description: "Luồng báo cáo có phân quyền, cô lập dữ liệu theo tenant và tự động tạo file PDF/Excel.", tags: ["NestJS", "PostgreSQL", "AWS Lambda", "Vue"], type: "webapp", icon: BarChart3, visual: "booking" },
+        { title: "ESG Reporting Workflow", eyebrow: "Enterprise / Reporting", description: "Luồng báo cáo có phân quyền, cô lập dữ liệu theo tenant và tự động tạo file PDF/Excel.", tags: ["NestJS", "PostgreSQL", "AWS Lambda", "Vue"], type: "webapp", icon: BarChart3, visual: "dashboard" },
       ]
     : [
-        { title: "Healthcare Booking & Teleconsultation", eyebrow: "Healthcare / Microservices", description: "Booking, payment, membership, video consultation and notification workflows for a healthcare platform.", tags: ["Node.js", "NestJS", "Redis", "PostgreSQL", "AWS"], type: "backend", icon: Layers3, visual: "dashboard" },
+        { title: "Healthcare Booking & Teleconsultation", eyebrow: "Healthcare / Microservices", description: "Booking, payment, membership, video consultation and notification workflows for a healthcare platform.", tags: ["Node.js", "NestJS", "Redis", "PostgreSQL", "AWS"], type: "backend", icon: Layers3, visual: "booking" },
         { title: "AI Document Intelligence", eyebrow: "OCR / Document Search", description: "A document pipeline for reading records, extracting fields and supporting natural-language search.", tags: ["OCR", "Gemini", "RAG", "S3", "SQS"], type: "ai", icon: FileSearch, visual: "document" },
         { title: "Marketplace Search Platform", eyebrow: "Marketplace / Search", description: "Search and caching architecture for a marketplace that needs fast responses and room to scale.", tags: ["Golang", "NestJS", "Redis", "Elasticsearch"], type: "backend", icon: Gauge, visual: "website" },
         { title: "Inventory & Order Processing", eyebrow: "E-commerce / Operations", description: "Inventory and order processing built around event-driven flows to reduce concurrency issues.", tags: ["NestJS", "RabbitMQ", "PostgreSQL", "React"], type: "webapp", icon: Blocks, visual: "api" },
-        { title: "ESG Reporting Workflow", eyebrow: "Enterprise / Reporting", description: "Reporting workflows with RBAC, tenant data isolation and automated PDF/Excel generation.", tags: ["NestJS", "PostgreSQL", "AWS Lambda", "Vue"], type: "webapp", icon: BarChart3, visual: "booking" },
+        { title: "ESG Reporting Workflow", eyebrow: "Enterprise / Reporting", description: "Reporting workflows with RBAC, tenant data isolation and automated PDF/Excel generation.", tags: ["NestJS", "PostgreSQL", "AWS Lambda", "Vue"], type: "webapp", icon: BarChart3, visual: "dashboard" },
       ];
 
   const contractorFit = locale === "vi"

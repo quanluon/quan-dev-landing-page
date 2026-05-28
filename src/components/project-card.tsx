@@ -17,8 +17,8 @@ type ProjectCardProps = {
 function ProjectVisual({ visual, locale = "vi" }: { visual: string; locale?: Locale }) {
   if (visual === "dashboard") {
     return (
-      <div className="h-56 overflow-hidden rounded-xl bg-slate-50">
-        <div className="origin-top-left scale-[0.55] md:scale-[0.58]">
+      <div className="h-56 overflow-hidden rounded-xl bg-slate-50 border border-[#c4c6cf]">
+        <div className="origin-top-left scale-[0.6] w-[180%]">
           <DashboardMockup locale={locale} />
         </div>
       </div>
@@ -27,7 +27,7 @@ function ProjectVisual({ visual, locale = "vi" }: { visual: string; locale?: Loc
 
   if (visual === "document") {
     return (
-      <div className="grid min-h-56 gap-4 rounded-lg border border-[#c4c6cf] bg-[#102134] p-5 text-white md:grid-cols-[0.8fr_1fr]">
+      <div className="grid h-56 gap-4 rounded-lg border border-[#c4c6cf] bg-[#102134] p-5 text-white md:grid-cols-[0.8fr_1fr] overflow-hidden">
         <div className="space-y-3">
           {["Patient note", "Invoice", "Form A", "Discharge summary"].map((item, index) => (
             <div className="border border-white/15 bg-white/5 p-3 text-xs" key={item}>
@@ -54,7 +54,7 @@ function ProjectVisual({ visual, locale = "vi" }: { visual: string; locale?: Loc
 
   if (visual === "booking") {
     return (
-      <div className="rounded-lg border border-[#c4c6cf] bg-[#f2f4f6] p-6">
+      <div className="h-56 rounded-lg border border-[#c4c6cf] bg-[#f2f4f6] p-6 overflow-hidden">
         <div className="mb-4 font-display text-lg font-semibold text-[#00091b]">
           {locale === "vi" ? "Đặt lịch hẹn" : "Book an appointment"}
         </div>
