@@ -21,7 +21,7 @@ export const dictionaries = {
     footer: {
       brand: "Hồng Quân Dev",
       copyright: "© 2025 Hồng Quân Dev. Reliable web, backend and automation work.",
-      note: "Làm rõ nhu cầu, xây đúng phần cần thiết, bàn giao để bạn dùng được thật.",
+      note: "Làm rõ nhu cầu, xây đúng phần cần thiết, bàn giao để bạn dùng được.",
     },
     common: {
       learnMore: "Tìm hiểu thêm",
@@ -54,7 +54,7 @@ export const dictionaries = {
         "Không chỉ làm giao diện. Tôi tập trung cả phần chạy phía sau: API, dữ liệu, tích hợp, vận hành và những phần tự động hóa giúp công việc nhẹ hơn.",
       techTitle: "Công nghệ sử dụng",
       techDescription:
-        "Stack được chọn theo bài toán thật: đủ chắc để vận hành, đủ gọn để team nhỏ vẫn tiếp quản được.",
+        "Stack được chọn theo bài toán: đủ chắc để vận hành, đủ gọn để team nhỏ vẫn tiếp quản được.",
       projectsTitle: "Dự án theo năng lực",
       projectsDescription:
         "Một vài dạng hệ thống tôi đã từng tham gia xây dựng, được viết lại theo năng lực để không lộ thông tin nhạy cảm.",
@@ -65,7 +65,7 @@ export const dictionaries = {
     services: {
       title: "Dịch vụ kỹ thuật số",
       description:
-        "Từ website rõ ràng đến backend, automation và xử lý tài liệu. Mỗi giải pháp được chọn theo nhu cầu thật, không làm phức tạp khi chưa cần.",
+        "Từ website rõ ràng đến backend, automation và xử lý tài liệu. Mỗi giải pháp được chọn theo nhu cầu, không làm phức tạp khi chưa cần.",
       processTitle: "Quy trình làm việc đơn giản, minh bạch",
       ctaTitle: "Bạn cần giải pháp vừa đủ?",
       ctaDescription:
@@ -90,7 +90,7 @@ export const dictionaries = {
       secondaryCta: "Xem case study",
       useCasesTitle: "Phù hợp khi bạn có nhiều tài liệu cần xử lý",
       useCasesDescription:
-        "Không phải bài toán nào cũng cần AI. Trang này dành cho các trường hợp tài liệu đang làm chậm quy trình vận hành thật.",
+        "Không phải bài toán nào cũng cần AI. Trang này dành cho các trường hợp tài liệu đang làm chậm quy trình vận hành.",
       flowTitle: "Luồng triển khai đề xuất",
       ctaTitle: "Bạn có tài liệu mẫu cần kiểm tra?",
       ctaDescription:
@@ -102,7 +102,7 @@ export const dictionaries = {
         "Hộ kinh doanh CNTT do Lương Hồng Quân vận hành, tập trung vào website, web app, backend API, automation và remote contractor.",
       mainTitle: "Không chỉ làm web đẹp. Phần chạy phía sau cũng phải rõ.",
       mainDescription:
-        "Tôi phù hợp với các dự án cần một người hiểu cả sản phẩm lẫn kỹ thuật: giao diện đủ dễ dùng, API rõ ràng, database có tổ chức, tích hợp bên thứ ba và deploy để chạy thật.",
+        "Tôi phù hợp với các dự án cần một người hiểu cả sản phẩm lẫn kỹ thuật: giao diện đủ dễ dùng, API rõ ràng, database có tổ chức, tích hợp bên thứ ba và deploy để go live.",
       technicalTitle: "Kỹ thuật thực tế",
       technicalDescription:
         "Đã từng làm các luồng booking, payment, notification, marketplace, inventory, báo cáo và xử lý tài liệu.",

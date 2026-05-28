@@ -234,7 +234,7 @@ export function getSiteData(locale: Locale) {
     ? [
         { title: "Tư vấn nhu cầu", description: "Trao đổi để hiểu bài toán vận hành, dữ liệu và mục tiêu kinh doanh.", icon: MessageCircle, tone: "blue" },
         { title: "Đề xuất kỹ thuật", description: "Chốt phạm vi, kiến trúc, thời gian và ngân sách bằng ngôn ngữ dễ hiểu.", icon: FileCode2, tone: "green" },
-        { title: "Triển khai & bàn giao", description: "Xây dựng theo milestone, kiểm thử và bàn giao để bạn dùng được thật.", icon: Rocket, tone: "orange" },
+        { title: "Triển khai & bàn giao", description: "Xây dựng theo milestone, kiểm thử và bàn giao để bạn dùng được.", icon: Rocket, tone: "orange" },
       ]
     : [
         { title: "Understand the need", description: "Discuss operations, data and business goals before shaping the work.", icon: MessageCircle, tone: "blue" },
